@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">RepairDesk</string>
+    <string name="job_detail_title">Job details</string>
+
+    <!-- Tabs -->
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_jobs">Jobs</string>
+    <string name="nav_new_job">New Job</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_title">Shop at a glance</string>
+    <string name="in_progress">In progress</string>
+    <string name="delivered_today">Delivered today</string>
+    <string name="pending_payments">Pending payments</string>
+    <string name="due_soon">Due soon (next 2 days)</string>
+    <string name="nothing_due_soon">Nothing due in the next 2 days.</string>
+    <string name="ready_to_collect">Ready to collect</string>
+    <string name="nothing_ready">No jobs waiting for collection.</string>
+
+    <!-- Jobs -->
+    <string name="search_hint">Search job code, name, phone, device…</string>
+    <string name="filter_all">All</string>
+    <string name="no_jobs_found">No jobs match this search.</string>
+
+    <!-- New job -->
+    <string name="new_job_title">New job card</string>
+    <string name="customer_name">Customer name *</string>
+    <string name="phone">Phone *</string>
+    <string name="device">Device *</string>
+    <string name="device_example">e.g. Samsung Galaxy M34, Dell Inspiron 15</string>
+    <string name="issue">Problem / issue *</string>
+    <string name="accessories">Accessories received</string>
+    <string name="estimate">Estimate (₹)</string>
+    <string name="promised_date">Promised date</string>
+    <string name="notes">Notes</string>
+    <string name="create_job">Create job card</string>
+    <string name="new_job_required_missing">Name, phone, device and issue are required.</string>
+    <string name="job_created">Job %1$s created</string>
+
+    <!-- Job detail -->
+    <string name="money_section">Money</string>
+    <string name="estimate_label">Estimate:</string>
+    <string name="paid_label">Paid:</string>
+    <string name="due_label">Due:</string>
+    <string name="move_to">Move to %1$s</string>
+    <string name="job_delivered">Delivered ✓</string>
+    <string name="receipt_section">Receipt</string>
+    <string name="print_receipt">Print receipt</string>
+    <string name="share_receipt">Share receipt (PDF)</string>
+    <string name="receipt_failed">Could not create the receipt.</string>
+    <string name="delete_job">Delete job</string>
+    <string name="delete_job_title">Delete this job?</string>
+    <string name="delete_job_message">The job card and all its payments will be deleted. This cannot be undone.</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Payments -->
+    <string name="record_payment">Record payment</string>
+    <string name="record">Record</string>
+    <string name="payment_amount">Amount (₹)</string>
+    <string name="payment_positive">Enter an amount greater than zero.</string>
+    <string name="payment_exceeds_due">That is more than the due amount (%1$s).</string>
+</resources>
